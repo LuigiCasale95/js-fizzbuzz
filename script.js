@@ -13,7 +13,7 @@ const fizzBuzz = "FizzBuzz"
 /* Inizio ciclo */
 for (let i = 1; i<=100; i++) {
     /* se il numero 1 è diviso per 15 da 0 allora la appare FizzBuzz */
-    if (i % 15 === 0) {
+    if (i % 3 === 0 && i % 5 === 0) {                     //altra soluzione (i % 15 === 0)
 
         console.log(`${fizzBuzz}`)
     }
@@ -33,3 +33,4 @@ for (let i = 1; i<=100; i++) {
     }
 
 }
+
